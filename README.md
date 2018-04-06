@@ -20,15 +20,15 @@ https://docs.docker.com/install/
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
 
-Clone the repository
+
+1. Clone the repository
 
 ```
 git clone https://github.com/rsingh888/node-docker
 ```
 
-Build docker image
+2. Build docker image
 
 ```
 cd node-docker
@@ -61,7 +61,7 @@ Crypto Currency Symbol : BTC
 Crypto Currency Market Cap(USD) : 112162244950
 ```
 
-## To run inside directly from command prompt
+## To run directly from command prompt
 
 ### Prerequisites
 
@@ -75,15 +75,14 @@ https://nodejs.org/en/download/
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
 
-Clone the repository
+1. Clone the repository
 
 ```
 git clone https://github.com/rsingh888/node-docker
 ```
 
-Build application
+2. Build application
 
 ```
 cd node-docker
