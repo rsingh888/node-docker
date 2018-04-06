@@ -92,7 +92,7 @@ npm install
 
 ### Running
 
-To run this application get market cap (in USD) of a crypto currency
+To run this application from command line
 
 edit .env file for the crypto currency name of which you need to know market cap
 CRYPTO_CURRNECY=bitcoin
