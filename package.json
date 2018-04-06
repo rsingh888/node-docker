@@ -1,0 +1,29 @@
+{
+  "name": "node-docker",
+  "version": "1.0.0",
+  "description": "A simple node application to run inside docker",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsingh888/node-docker.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "docker"
+  ],
+  "author": "Rajeev Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsingh888/node-docker/issues"
+  },
+  "homepage": "https://github.com/rsingh888/node-docker#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "request": "^2.85.0"
+  }
+}
