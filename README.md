@@ -31,7 +31,7 @@ git clone https://github.com/rsingh888/node-docker
 Build docker image
 
 ```
-cd node-docker\
+cd node-docker
 docker build -t node-docker .
 ```
 
@@ -86,7 +86,7 @@ git clone https://github.com/rsingh888/node-docker
 Build application
 
 ```
-cd node-docker\
+cd node-docker
 npm install
 ```
 
