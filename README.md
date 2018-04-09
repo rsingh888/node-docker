@@ -32,7 +32,9 @@ git clone https://github.com/rsingh888/node-docker
 
 ```
 cd node-docker
-docker build -t node-docker .
+docker build -t node-docker .  
+or 
+sudo docker build -t node-docker (if current user does not have permission to run docker commands)
 ```
 
 
@@ -41,7 +43,9 @@ docker build -t node-docker .
 To run this application inside docker image to get market cap (in USD) of a crypto currency
 
 ```
-docker run -e CRYPTO_CURRENCY=<<crypto Currency Name>> node-docker
+docker run -e CRYPTO_CURRENCY=<<crypto Currency Name>> node-docker  
+or 
+sudo docker run -e CRYPTO_CURRENCY=<<crypto Currency Name>> node-docker(if current user does not have permission to run docker commands)
 ```
 
 Example
